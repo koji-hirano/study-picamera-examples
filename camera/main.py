@@ -4,6 +4,7 @@ from flask import Flask, render_template, Response
 # 動体検知
 # from processor.motion_detector import MotionDetector as VideoCamera
 # from processor.qr_detector import QRDetector as VideoCamera
+# 顔検知
 from processor.face_detector import FaceDetector as VideoCamera
 # from processor.person_detector import PersonDetector as VideoCamera
 
